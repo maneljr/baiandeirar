@@ -1,0 +1,59 @@
+.work-title-link { color: inherit; text-decoration: none; }
+.work-title-link:hover { text-decoration: underline; }
+.work-detail-link { font-family: 'Space Mono', monospace; font-size: 11px; font-weight: 700; padding: 12px 0; }
+.work-page { background: #fdf7e8; color: #3d3222; min-height: 100vh; }
+.detail-topbar { max-width: 960px; margin: auto; padding: 24px clamp(20px, 5vw, 48px); display: flex; align-items: center; justify-content: space-between; gap: 16px; border-bottom: 1px solid #e7d4a0; }
+.detail-brand { font-size: 26px; font-weight: 800; color: #6b2b1a; text-decoration: none; }
+.detail-brand span { display: block; font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: .12em; margin-top: 4px; }
+.back-link { font-family: 'Space Mono', monospace; font-size: 11px; padding: 12px 0; white-space: nowrap; }
+.detail-main { width: min(100% - 40px, 680px); margin: 0 auto; }
+.detail-heading { padding: 32px 0 24px; }
+.detail-meta { display: flex; align-items: center; justify-content: space-between; gap: 16px; font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: .1em; color: #806736; }
+.detail-heading h1 { font-size: clamp(34px, 7vw, 56px); line-height: 1.12; color: #6b2b1a; margin: 20px 0 14px; text-wrap: balance; overflow-wrap: anywhere; }
+.detail-heading > p { font-size: 16px; line-height: 1.7; margin: 0; }
+.detail-eyebrow { font-family: 'Space Mono', monospace; font-size: 10px; font-weight: 700; letter-spacing: .14em; color: #8a5a1f; margin: 0 0 16px; }
+.audio-panel { background: linear-gradient(145deg, #f8e9b8, #f0d488); border: 1px solid #dfc27c; border-radius: 12px; padding: 22px 20px 16px; }
+.audio-main-button { width: 100%; background: #6b2b1a; color: #fff4d8; border: 0; border-radius: 40px; display: flex; align-items: center; justify-content: center; gap: 12px; min-height: 58px; padding: 12px 14px; cursor: pointer; font-family: 'Space Mono', monospace; font-size: 12px; font-weight: 700; }
+.audio-main-button:hover { background: #542114; }
+.audio-play-icon { font-size: 22px; }
+.audio-hint { font-family: 'Space Mono', monospace; font-size: 11px; line-height: 1.7; margin: 14px 0; color: #5d4024; }
+.audio-timeline { display: flex; align-items: center; gap: 10px; font-family: 'Space Mono', monospace; font-size: 10px; }
+.audio-timeline input { min-width: 0; flex: 1; accent-color: #6b2b1a; height: 32px; cursor: pointer; }
+.audio-status { font-size: 12px; line-height: 1.5; min-height: 18px; margin: 8px 0 0; color: #5d4024; }
+.audio-dock { position: fixed; bottom: 0; left: 0; right: 0; z-index: 20; background: #2b2b30; color: #fdf3d9; box-shadow: 0 -4px 24px #2b211822; padding: 14px max(20px, env(safe-area-inset-right)) calc(14px + env(safe-area-inset-bottom)) max(20px, env(safe-area-inset-left)); display: flex; align-items: center; justify-content: center; gap: 24px; }
+.audio-dock > div { min-width: 0; max-width: 480px; flex: 1; }
+.audio-dock span { font-family: 'Space Mono', monospace; font-size: 8px; letter-spacing: .12em; color: #d1ad55; display: block; margin-bottom: 4px; }
+.audio-dock strong { display: block; font-size: 16px; white-space: nowrap; text-overflow: ellipsis; overflow: hidden; }
+.audio-dock button { border: 1px solid #d1ad55; border-radius: 28px; padding: 12px 16px; min-height: 44px; background: #d1ad55; color: #2b2118; font-family: 'Space Mono', monospace; font-size: 12px; cursor: pointer; }
+.audio-pending { padding: 22px; background: #f4ecd6; border: 1px solid #e7d4a0; border-radius: 12px; }
+.audio-pending > p:last-child { font-size: 15px; line-height: 1.6; margin: 0; }
+.page-image-section { margin: 28px 0 40px; }
+.page-image-frame { margin: 0; background: #f4ecd6; border: 1px solid #e7d4a0; border-radius: 4px; overflow: hidden; }
+.page-image-frame img { display: block; width: 100%; max-height: 680px; object-fit: contain; }
+.image-placeholder { min-height: 220px; display: flex; align-items: center; justify-content: center; flex-direction: column; gap: 12px; padding: 24px; box-sizing: border-box; color: #8a6314; text-align: center; background: radial-gradient(ellipse at center, #fbf3dc, #f1e5c3); }
+.image-placeholder span { font-size: 18px; font-style: italic; }
+.image-placeholder small { font-family: 'Space Mono', monospace; font-size: 10px; color: #78633b; }
+.image-editor { padding: 16px 0 0; font-family: 'Space Mono', monospace; font-size: 10px; line-height: 1.7; }
+.upload-label { display: inline-flex; align-items: center; position: relative; border: 1px solid #bba367; border-radius: 6px; min-height: 44px; padding: 0 16px; color: #6b2b1a; background: #fbf3dc; cursor: pointer; font-weight: 700; font-size: 11px; }
+.upload-label input { position: absolute; width: 100%; height: 100%; inset: 0; opacity: 0; cursor: pointer; }
+.upload-label:focus-within { outline: 3px solid #2f5c86; outline-offset: 3px; }
+.image-editor p { margin: 8px 0 0; }
+.literary-text { padding: 0 0 36px; }
+.literary-text h2 { font-size: clamp(30px, 6vw, 40px); color: #6b2b1a; margin: 0 0 8px; line-height: 1.2; }
+.poem-author { font-family: 'Space Mono', monospace; color: #2f5c86; font-size: 12px; margin: 0 0 28px; }
+.poem-verses, .poem-prose { font-size: clamp(18px, 3.9vw, 21px); line-height: 1.85; overflow-wrap: break-word; }
+.poem-verses p { white-space: pre-line; margin: 0 0 1.6em; }
+.poem-prose p { margin: 0 0 1.2em; }
+.literary-text > p:not(.detail-eyebrow):not(.poem-author) { font-size: 18px; line-height: 1.8; }
+.text-note { color: #78633b; font-style: italic; }
+.work-context { padding: 28px 24px; background: #fbf3dc; border-left: 2px solid #d1ad55; }
+.work-context blockquote { margin: 0 0 20px; color: #6b2b1a; font-size: 20px; font-style: italic; line-height: 1.6; }
+.work-context > p:not(.detail-eyebrow) { font-family: 'Space Mono', monospace; font-size: 11px; line-height: 1.8; }
+.detail-navigation { display: flex; flex-direction: column; gap: 24px; padding: 40px 0; }
+.detail-navigation > a:first-child { padding: 24px; background: #2b2b30; color: #f3e6c2; border-radius: 8px; text-decoration: none; }
+.detail-navigation span { font-family: 'Space Mono', monospace; font-size: 10px; letter-spacing: .1em; display: block; margin-bottom: 10px; color: #d1ad55; }
+.detail-navigation strong { font-size: 23px; }
+.detail-navigation > a:last-child { align-self: center; font-family: 'Space Mono', monospace; font-size: 12px; padding: 12px; }
+.detail-footer { padding: 28px 20px calc(120px + env(safe-area-inset-bottom)); text-align: center; border-top: 1px solid #e7d4a0; font-family: 'Space Mono', monospace; font-size: 10px; line-height: 2; color: #78633b; }
+.not-found { max-width: 640px; padding: 80px 24px; margin: auto; }
+@media (min-width: 760px) { .detail-heading { padding-top: 48px; } .audio-panel { padding: 28px; } .image-placeholder { min-height: 320px; } }

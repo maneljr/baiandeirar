@@ -1,0 +1,7 @@
+:root { font-family: 'Playfair Display', serif; color: #2a2118; background: #fdf7e8; font-synthesis: none; text-rendering: optimizeLegibility; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; }
+body { margin: 0; min-width: 320px; }
+a { color: #2f5c86; }
+a:hover { color: #1f4468; }
+::selection { background: #d1ad55; }
+:focus-visible { outline: 3px solid #2f5c86; outline-offset: 5px; }
+button { font: inherit; }

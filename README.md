@@ -32,7 +32,7 @@ O calendário permanece desabilitado enquanto data e horário estiverem a confir
 | Rabiolas | `/rabiolas` | Disponível |
 | Pinguelas | `/pinguelas` | Disponível |
 | Dó da Mula | `/do-da-mula` | Disponível |
-| Cabô Cauê | `/cabo-caue` | Pendente |
+| Cabô Cauê | `/cabo-caue` | Disponível |
 | Cara a Cara com o Gol | `/cara-a-cara-com-o-gol` | Disponível |
 
 ### Enviar imagens
@@ -48,7 +48,7 @@ O upload existe apenas na edição local; não há serviço de envio ou painel a
 
 `src/data/work-pages.json` contém slugs estáveis, textos completos, formato (versos ou prosa) e caminhos dos áudios. Os textos foram transcritos de **Atividades para exposição 2026**, incluindo as continuações entre páginas. A letra de O Trem que Leva Minas foi fornecida diretamente pelo responsável pela exposição e está preservada como enviada. A obra substitui Bailarinas de Papel Machê; Espaços de Convivência foi removida.
 
-As seis gravações MP4 foram convertidas em MP3 mono a 128 kbps em `public/audio/`, preservando a duração e os arquivos originais. Para adicionar uma gravação, copie o arquivo e preencha `audio` na obra correspondente. A reprodução começa com o toque do visitante, pois celulares podem bloquear áudio automático. O player permite pausar e avançar e permanece acessível durante a leitura.
+As sete gravações MP4 foram convertidas em MP3 mono a 128 kbps em `public/audio/`, preservando a duração e os arquivos originais. Para adicionar uma gravação, copie o arquivo e preencha `audio` na obra correspondente. A reprodução começa com o toque do visitante, pois celulares podem bloquear áudio automático. O player permite pausar e avançar e permanece acessível durante a leitura.
 
 ### Publicação e QR Codes
 

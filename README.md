@@ -59,7 +59,7 @@ Os QR Codes devem apontar para as páginas, nunca diretamente para os MP3. Mante
 A obra 01 usa a mesma imagem na home e na página individual. Seu áudio foi convertido de M4A para MP3 a 192 kbps, preservando os canais e o arquivo original.
 
 
-A seção Sobre o Artista apresenta Newton Baiandeira. A biografia foi baseada na reportagem [Newton Baiandeira, 70 anos](https://atilalemos.com.br/2022/01/06/newton-baiandeira-70-anos-pesquisa-aprofunda-a-vida-do-artista/), com informações da Prefeitura de Itabira/FCCDA. O destaque visual usa versos de Rabiolas presentes no PDF fornecido. Os contatos de Caroline Vaz ficam em Curadoria e realização.
+A seção Sobre o Artista apresenta Newton Baiandeira. A biografia foi baseada na reportagem [Newton Baiandeira, 70 anos](https://atilalemos.com.br/2022/01/06/newton-baiandeira-70-anos-pesquisa-aprofunda-a-vida-do-artista/), com informações da Prefeitura de Itabira/FCCDA. O destaque visual usa versos de Rabiolas presentes no PDF fornecido. A seção Curadoria apresenta apenas o nome de Caroline Vaz.
 
 ## Desafio da exposição
 

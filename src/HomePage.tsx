@@ -92,36 +92,8 @@ export default function HomePage() {
   <section id="curadoria" style={{"position":"relative","padding":"8vw 6vw","background":"#2b2b30","color":"#f3e6c2","overflow":"hidden"}}>
     <img src={`${import.meta.env.BASE_URL}images/tile-strip-dark.png`} alt="" style={{"position":"absolute","top":"0","right":"0","height":"100%","width":"min(220px, 22vw)","objectFit":"cover","opacity":"0.9"}}/>
     <div style={{"maxWidth":"780px","margin":"0 auto","position":"relative"}}>
-      <div style={{"fontFamily":"'Space Mono', monospace","fontSize":"13px","letterSpacing":"0.15em","color":"#d1ad55","fontWeight":"700","marginBottom":"18px"}}>CURADORIA E REALIZAÇÃO</div>
+      <div style={{"fontFamily":"'Space Mono', monospace","fontSize":"13px","letterSpacing":"0.15em","color":"#d1ad55","fontWeight":"700","marginBottom":"18px"}}>CURADORIA</div>
       <h2 style={{"margin":"0 0 22px","fontSize":"clamp(26px, 3.6vw, 38px)","fontWeight":"700","color":"#f3e6c2"}}>Caroline Vaz</h2>
-          <address className="artist-contacts curatorship-contacts" aria-label="Contatos de Caroline Vaz">
-            <a href="https://www.instagram.com/carollvaaz/" target="_blank" rel="noopener noreferrer">
-              <span>INSTAGRAM ↗</span>
-              @carollvaaz
-            </a>
-            <a href="mailto:carolfernandda@hotmail.com">
-              <span>E-MAIL</span>
-              carolfernandda@hotmail.com
-            </a>
-            <a href="tel:+55319921936597">
-              <span>TELEFONE</span>
-              (31) 9921936597
-            </a>
-          </address>
-      <p style={{"fontSize":"17px","lineHeight":"1.75","color":"#d9c9a0","margin":"0 0 32px","maxWidth":"560px"}}>A curadoria reúne as produções das três escolas em um só percurso, aproximando poesia, história local e educação em valores em uma experiência única de exposição.</p>
-      <div style={{"display":"flex","flexWrap":"wrap","gap":"40px","fontFamily":"'Space Mono', monospace","fontSize":"13px","lineHeight":"1.9","color":"#b9a878"}}>
-        <div>
-          <div style={{"color":"#d1ad55","marginBottom":"8px","letterSpacing":"0.08em"}}>REALIZAÇÃO</div>
-          Secretaria Municipal de Educação de Itabira<br/>
-          Programa CRES@ARTE
-        </div>
-        <div>
-          <div style={{"color":"#d1ad55","marginBottom":"8px","letterSpacing":"0.08em"}}>ESCOLAS PARTICIPANTES</div>
-          E. M. Professora Antonina Moreira<br/>
-          E. M. José Gomes Vieira<br/>
-          E. M. Marina Bragança de Mendonça
-        </div>
-      </div>
     </div>
   </section>
 
@@ -131,7 +103,7 @@ export default function HomePage() {
     <div style={{"maxWidth":"780px","margin":"0 auto","position":"relative","display":"flex","flexDirection":"column","gap":"20px"}}>
       <div style={{"fontFamily":"'Space Mono', monospace","fontSize":"13px","letterSpacing":"0.15em","color":"#fdf3d9","fontWeight":"700"}}>VISITE A EXPOSIÇÃO</div>
       <h2 style={{"margin":"0","fontSize":"clamp(30px, 4.5vw, 46px)","fontWeight":"700","color":"#fffaef"}}>Itabira, Minas Gerais</h2>
-      <p id="visit-date" style={{"margin":"0","fontSize":"18px","lineHeight":"1.7","color":"#fbe9c3","maxWidth":"540px"}}>Fundação Cultural Carlos Drummond de Andrade<br/>Data e horário a confirmar</p>
+      <p id="visit-date" style={{"margin":"0","fontSize":"18px","lineHeight":"1.7","color":"#fbe9c3","maxWidth":"540px"}}>Fundação Cultural Carlos Drummond de Andrade<br/>16/11/2026 às 19h</p>
       <button type="button" disabled aria-describedby="visit-date" className="calendar-button" style={{"marginTop":"8px","display":"inline-flex","alignSelf":"flex-start","alignItems":"center","gap":"10px","background":"#2b2b30","color":"#f3e6c2","fontFamily":"'Space Mono', monospace","fontSize":"13px","letterSpacing":"0.1em","fontWeight":"700","padding":"16px 28px","borderRadius":"999px","textDecoration":"none"}}>ADICIONAR AO CALENDÁRIO →</button>
     </div>
   </section>
